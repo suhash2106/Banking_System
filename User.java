@@ -9,6 +9,7 @@ public class User {
     private String password;
     private int pin;
     private double balance;
+    public static int count = 0;
 
     public User(String name, int phoneNumber, String email, int age, int aadhar, String password, int pin,
             int balance) {
@@ -20,7 +21,7 @@ public class User {
         this.password = password;
         this.pin = pin;
         this.balance = 5000;
-
+        count = count + 1;
     }
 
     String getName() {
