@@ -10,7 +10,8 @@ public class User {
     private int pin;
     private double balance;
 
-    public User(String name,int phoneNumber,String email,int age,int aadhar,String password,int pin,int balance) {
+    public User(String name, int phoneNumber, String email, int age, int aadhar, String password, int pin,
+            int balance) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.email = email;
@@ -22,63 +23,75 @@ public class User {
 
     }
 
-    String getName(){
+    String getName() {
         return name;
     }
-    int getphoneNumber(){
+
+    int getphoneNumber() {
         return phoneNumber;
     }
-    String getemail(){
+
+    String getEmail() {
         return email;
     }
-    int getage(){
+
+    int getAge() {
         return age;
     }
-    int getaadhar(){
+
+    int getAadhar() {
         return aadhar;
     }
-    String getpassword(){
-        return password; 
+
+    String getPassword() {
+        return password;
     }
-    double getbalance(){
+
+    double getBalance() {
         return balance;
     }
-    int getpin(){
+
+    int getpin() {
         return pin;
     }
-    public void setname(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public void setphoneNumber(int phoneNumber){
+
+    public void setPhoneNumber(int phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-    public void setemail(String email){
+
+    public void setEmail(String email) {
         this.email = email;
     }
-    public void setage(int age){
+
+    public void setAge(int age) {
         this.age = age;
     }
-    public void setaadhar(int aadhar){
+
+    public void setAadhar(int aadhar) {
         this.aadhar = aadhar;
     }
-    public void setpassword(String password){
+
+    public void setPassword(String password) {
         this.password = password;
     }
-    public void setbalance(int balance){
+
+    public void setBalance(int balance) {
         this.balance = balance;
     }
-    public void setpin(int pin){
+
+    public void setPin(int pin) {
         this.pin = pin;
     }
+
     @Override
-    public String toString(){
-        return "User name: " +name+ " " + "User age :" + age + " " + "User Phone Number :" + phoneNumber + " " + "User email :" + email + " " + "User aadhar no. :" + aadhar + " " + "User Balance :" + balance + " ";
+    public String toString() {
+        return "User name: " + name + " " + "User age :" + age + " " + "User Phone Number :" + phoneNumber + " "
+                + "User email :" + email + " " + "User aadhar no. :" + aadhar + " " + "User Balance :" + balance + " ";
 
     }
-    
+
 }
-
-
-
-
-
